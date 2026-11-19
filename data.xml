@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<platform>
+    <users>
+        <user role="instructor">
+            <user_id>1</user_id>
+            <name>Соколов Дмитрий</name>
+            <email>sokolov@edu.ru</email>
+            <subject>Python</subject>
+            <rating>4.8</rating>
+        </user>
+        <user role="student">
+            <user_id>2</user_id>
+            <name>Козлова Мария</name>
+            <email>kozlova@mail.ru</email>
+            <level>Beginner</level>
+        </user>
+        <user role="student">
+            <user_id>3</user_id>
+            <name>Петров Иван</name>
+            <email>petrov@mail.ru</email>
+            <level>Middle</level>
+        </user>
+    </users>
+    <courses>
+        <course>
+            <course_id>10</course_id>
+            <title>Основы Python</title>
+            <price>4200.0</price>
+            <teacher_id>1</teacher_id>
+            <lessons>
+                <lesson type="video">
+                    <lesson_id>1</lesson_id>
+                    <title>Классы и объекты</title>
+                    <minutes>40</minutes>
+                    <url>https://edu.ru</url>
+                    <quality>1080p</quality>
+                </lesson>
+                <lesson type="quiz">
+                    <lesson_id>2</lesson_id>
+                    <title>Проверка знаний по ООП</title>
+                    <minutes>15</minutes>
+                    <questions>10</questions>
+                    <pass_score>8</pass_score>
+                </lesson>
+            </lessons>
+        </course>
+    </courses>
+    <enrollments>
+        <enrollment>
+            <enroll_id>100</enroll_id>
+            <student_id>2</student_id>
+            <course_id>10</course_id>
+            <done_lessons />
+        </enrollment>
+        <enrollment>
+            <enroll_id>101</enroll_id>
+            <student_id>3</student_id>
+            <course_id>10</course_id>
+            <done_lessons />
+        </enrollment>
+    </enrollments>
+</platform>

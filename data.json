@@ -1,0 +1,66 @@
+{
+    "users": [
+        {
+            "role": "instructor",
+            "user_id": 1,
+            "name": "Соколов Дмитрий",
+            "email": "sokolov@edu.ru",
+            "subject": "Python",
+            "rating": 4.8
+        },
+        {
+            "role": "student",
+            "user_id": 2,
+            "name": "Козлова Мария",
+            "email": "kozlova@mail.ru",
+            "level": "Beginner"
+        },
+        {
+            "role": "student",
+            "user_id": 3,
+            "name": "Петров Иван",
+            "email": "petrov@mail.ru",
+            "level": "Middle"
+        }
+    ],
+    "courses": [
+        {
+            "course_id": 10,
+            "title": "Основы Python",
+            "price": 4200.0,
+            "teacher_id": 1,
+            "lessons": [
+                {
+                    "type": "video",
+                    "lesson_id": 1,
+                    "title": "Классы и объекты",
+                    "minutes": 40,
+                    "url": "https://edu.ru",
+                    "quality": "1080p"
+                },
+                {
+                    "type": "quiz",
+                    "lesson_id": 2,
+                    "title": "Проверка знаний по ООП",
+                    "minutes": 15,
+                    "questions": 10,
+                    "pass_score": 8
+                }
+            ]
+        }
+    ],
+    "enrollments": [
+        {
+            "enroll_id": 100,
+            "student_id": 2,
+            "course_id": 10,
+            "done_lessons": []
+        },
+        {
+            "enroll_id": 101,
+            "student_id": 3,
+            "course_id": 10,
+            "done_lessons": []
+        }
+    ]
+}
